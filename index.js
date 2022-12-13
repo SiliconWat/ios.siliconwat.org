@@ -1,8 +1,9 @@
-import "/components/sw-header/element.mjs";
-import "/components/sw-footer/element.mjs";
+import { FRONTEND, COHORT } from "/global.mjs";
 
-import { FRONTEND } from "/global.mjs";
 window.onload = async () => {
+    await import(`${COHORT}/components/sw-header/element.mjs`);
+    await import(`${COHORT}/components/sw-footer/element.mjs`);
+
     await import(`${FRONTEND}/components/sw-main/sw-learn/element.mjs`);
     await import(`${FRONTEND}/components/sw-main/sw-practice/element.mjs`);
     await import(`${FRONTEND}/components/sw-main/sw-review/element.mjs`);
