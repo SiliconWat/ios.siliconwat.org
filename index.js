@@ -3,6 +3,7 @@ import { FRONTEND, COHORT } from "/global.mjs";
 window.onload = async () => {
     await import(`${COHORT}/components/sw-header/element.mjs`);
     await import(`${COHORT}/components/sw-footer/element.mjs`);
+    await import(`${FRONTEND}/components/sw-auth/element.mjs`);
 
     await import(`${FRONTEND}/components/sw-main/sw-learn/element.mjs`);
     await import(`${FRONTEND}/components/sw-main/sw-practice/element.mjs`);
