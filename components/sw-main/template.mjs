@@ -14,7 +14,8 @@ template.innerHTML = `
     </svg>
     <slot></slot>
     <footer>
-        <p>If you’re already a Medium member or don't like Medium, please consider <strong>donating</strong> to <a href="https://github.com/sponsors/SiliconWat">@SiliconWat</a> to receive the same <strong>Udemy discount</strong>!</p>
+        <p>To teach you only the most <strong>up-to-date</strong> information, this course is <strong>remastered</strong> every three years.</p>
+		<p><a href="https://twitter.com/siliconwat">Follow me on Twitter</a> for real-time updates!</p>
     </footer>
 `;
 

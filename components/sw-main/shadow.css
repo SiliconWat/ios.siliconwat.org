@@ -20,6 +20,10 @@ a {
   color: currentColor;
 }
 
+img {
+  height: 80px;
+}
+
 /*======*/
 
 svg {
